@@ -33,11 +33,11 @@ const Login = () => {
         .then(res => {
           //console.log(res.data.users)
           
-          
+          uid = res.data.users.uid;
          console.log(uid);
           if (res.data.message){
             uid = res.data.users.uid;
-            if(res.data.users.roleid==="13"){
+            if(res.data.users.roleid==13){
 
             
           navigate("/leader",{state:res.data.users})
