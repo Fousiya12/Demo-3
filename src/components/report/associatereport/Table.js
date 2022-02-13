@@ -21,7 +21,7 @@ export default function AssociateReport() {
 
   // getting associate TASK
   function getUser() {
-    alert (uid)
+   
     setLoading(true);
     fetch(`http://localhost:3001/tasks/${uid}`, {
       method: "GET",
@@ -223,7 +223,7 @@ export default function AssociateReport() {
           update(editingStatus);
           console.log(editingStatus);
 
-          fetch(`http://localhost:3001/tasks/${editingStatus.taskid}`, {
+          fetch(`http://localhost:3001/tasks/taskid/${editingStatus.taskid}`, {
             method: "PATCH",
             body: JSON.stringify({
               status:editingStatus.status

@@ -3,6 +3,7 @@ import axios from 'axios';
 import user from './user.png';
 import '../dashboard/dashboard.css';
 import { uid } from "../login/login";
+import "../../components/navbar.css"
 
 export default class Userdata extends React.Component {
   state = {
@@ -24,9 +25,9 @@ export default class Userdata extends React.Component {
       <>
         <div id="profilepic">
           <img src={user} alt="ProfilePicture" height="100px" width="100px" />
-          <h1>Hello! {this.state.user.name}</h1>
-          <p>{this.state.user.email}</p>
-          <p>{this.state.user.uid}</p>
+          <h1 className="hello">Hello! {this.state.user.name}</h1>
+          <p  className="detail">{this.state.user.email}</p>
+          <p className="detail">{this.state.user.uid}</p>
         </div>
       </>
     )

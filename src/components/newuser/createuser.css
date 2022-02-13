@@ -2,11 +2,11 @@
 {
     
     border:solid 1px white;
-   margin-left: 38%;
+   margin-left: 400px;
    margin-top: 40px;
-	width: 350px;
+	width: 600px;
 	height: 550px;
-	background: rgb(41, 39, 39);
+	background-image: url(adduser.jpg);
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
@@ -25,4 +25,20 @@ text-decoration:none;
 .label
 {
     color: white;
+}
+.otable.input{
+    color:black;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(103, 134, 105, 0.938);
+    border-color: rgb(72, 72, 116);
+    color: aliceblue;
+    margin: 40px;
+    cursor: pointer;
+  
+}
+.button:hover{
+    background-color: rgb(147, 179, 151);
 }

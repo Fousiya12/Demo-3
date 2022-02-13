@@ -70,11 +70,11 @@ class TaskUI extends Component{
         const {associate} = this.state;
         return(
         <div className="div8">
-            
+            <h2 className="head">Assign New Task</h2>
             <div className="div2">
-                <label htmlFor="task">Task Name</label><br />               
+                <label className="name" htmlFor="task">Task Name</label><br />               
                 <input type="text"   className="taskname" name="taskname" placeholder="Enter Title" onChange={this.inputChange} ></input><br />
-                <label htmlFor="task">Task Description</label><br />
+                <label  className="name" htmlFor="task">Task Description</label><br />
                 <textarea className="description" name="description" onChange={this.inputChange}></textarea><br /><br /><br />
                 <input type="file" className="file" name="file1" id="file" onChange={this.onFileChange}></input>
                 <select className="sel" name="sel" onChange={this.inputChange}>

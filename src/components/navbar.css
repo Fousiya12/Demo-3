@@ -3,7 +3,7 @@
 }
 
 .nav{
-    background: navy;
+    background: #345336;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,11 +29,18 @@
     margin-left: 225px;
 }
 .nav a:hover{
-    background-color: rgb(240, 177, 41);
-    color:navy;
+    background-color: rgb(118, 165, 97);
+   
 }
 
 .nav a:active { text-decoration: none; 
     background-color: paleturquoise;
 }
 
+.hello{
+    color:white;
+}
+
+.detail{
+    color:white;
+}

@@ -60,7 +60,7 @@ return (<div className='login-container'>
   <h1>LOGIN</h1>
   <div className='input-section'>
 
-    <input type="text" name="email"value={users.email} placeholder="emailid"  onChange={handleChange} /><br /><br />
+    <input type="text" name="email"value={users.email} placeholder="Enter your Email"  onChange={handleChange} /><br /><br />
     <input type="password" name="password" value={users.password} placeholder="Password"  onChange={handleChange} /><br />
 <button className='login-button' onClick={login}>Login</button>
 
