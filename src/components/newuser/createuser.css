@@ -1,0 +1,28 @@
+.otable
+{
+    
+    border:solid 1px white;
+   margin-left: 38%;
+   margin-top: 40px;
+	width: 350px;
+	height: 550px;
+	background: rgb(41, 39, 39);
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+
+    
+}
+.otable th{
+    color: white;
+}
+a{
+text-decoration:none;
+} 
+.label
+{
+    color: white;
+}
